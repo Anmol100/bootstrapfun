@@ -1,0 +1,21 @@
+Bootstrap4 Alert
+Bootstrap 4 adds 4 new alerts in Bootstrap Alert defined in Bootstrap 3 tutorial.
+
+These are:
+
+Primary: This alert box indicates an important action.
+Secondary: This alert box indicates a less important action.
+Dark: Dark grey alert box.
+Light: Light grey alert box.
+Alerts are created with the .alert class, followed by one of the contextual classes.
+
+List of all contextual classes:
+
+.alert-success
+.alert-info
+.alert-warning
+.alert-danger
+.alert-primary
+.alert-secondary
+.alert-light
+.alert-dark

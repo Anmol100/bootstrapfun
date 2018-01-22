@@ -1,0 +1,8 @@
+Bootstrap Alerts are used to provide an easy way to create predefined alert messages. Alert adds a style to your messages to make it more appealing to the users.
+
+There are four classes that are used within <div> element for alerts.
+
+.alert-success
+.alert-info
+.alert-warning
+.alert-danger
