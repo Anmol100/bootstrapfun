@@ -1,0 +1,12 @@
+Bootstrap Panels
+In Bootstrap, a panel is a bordered box with some padding around its element.
+The panel components are used when you want to put your DOM component in a box.
+
+The class .panel is used within the <div> element to create Bootstrap panels.
+The content inside the panel has a .panel-body class.
+
+Generally a panel contains three parts:
+
+Panel header
+Panel content
+Panel footer
