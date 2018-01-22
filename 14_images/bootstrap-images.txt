@@ -1,0 +1,8 @@
+Bootstrap supports for images. There are three classes in Bootstrap that can be used to apply some simple style to the images.
+
+The following classes add style to the images:
+
+Classes	Uses
+.img-rounded	  It adds border-radius:6px to give the image rounded corners.
+.img-circle	    It makes the entire image round by adding border-radius:500px.
+.img-thumbnail	It adds a bit of padding and a gray border.

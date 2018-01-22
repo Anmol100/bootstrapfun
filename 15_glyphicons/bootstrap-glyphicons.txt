@@ -1,0 +1,17 @@
+Bootstrap Glyphicons
+Glyphicons are the icon fonts that are used in web projects. Bootstrap provides 260 Glyphicons from the Glyphicons Halflings set.
+
+Some examples of Glyphicons are:
+
+Envelope glyphicon
+Print glyphicon
+Search glyphicon
+Download glyphicon etc.
+Glyphicons Syntax
+<span class="glyphicon glyphicon-name"></span>
+ 
+To create the desired Glyphicon, the "name" part of the syntax must be replaced accordingly.
+
+For example: If you want to create "envelope" glyphicon, then you must write the following syntax:
+
+<span class="glyphicon glyphicon-envelope"></span>
