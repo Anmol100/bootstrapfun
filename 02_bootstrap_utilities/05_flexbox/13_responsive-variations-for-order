@@ -1,0 +1,19 @@
+Responsive variations for order
+
+You can also use responsive variations for order:
+
+.order-first
+.order-last
+.order-unordered
+.order-sm-first
+.order-sm-last
+.order-sm-unordered
+.order-md-first
+.order-md-last
+.order-md-unordered
+.order-lg-first
+.order-lg-last
+.order-lg-unordered
+.order-xl-first
+.order-xl-last
+.order-xl-unordered

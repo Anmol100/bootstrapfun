@@ -1,0 +1,42 @@
+Auto margins
+
+In flexbox, you can mix flex alignments with auto margins to do some pretty awesome things.
+
+
+
+With justify-content
+
+You can easily move all flex items to one side, but keep another on the opposite end by mixing justify-content with margin-right: auto or margin-left: auto.
+
+Example:
+
+<div class="d-flex justify-content-end">
+  <div class="mr-auto p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+</div>
+
+<div class="d-flex justify-content-start">
+  <div class="p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+  <div class="ml-auto p-2">Flex item</div>
+</div>
+
+With align-items
+
+You can similarly move one flex item to the top or bottom of a container by mixing align-items,
+ flex-direction: column, and margin-top: auto or margin-bottom: auto.
+
+Example:
+
+<div class="d-flex align-items-start flex-column" style="height: 200px;">
+  <div class="mb-auto p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+</div>
+
+<div class="d-flex align-items-end flex-column" style="height: 200px;">
+  <div class="p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+  <div class="mt-auto p-2">Flex item</div>
+</div>

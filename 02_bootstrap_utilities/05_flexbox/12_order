@@ -1,0 +1,13 @@
+Order:
+
+It is used to change the visual order of specific flex items with a handful of order utilities.
+
+You can make an item first or last, as well as a reset to use the DOM order. As order takes any integer value (e.g., 5), add custom CSS for any additional values needed.
+
+Example:
+
+<div class="d-flex flex-nowrap">
+  <div class="flex-last p-2">First flex item</div>
+  <div class="p-2">Second flex item</div>
+  <div class="flex-first p-2">Third flex item</div>
+</div>

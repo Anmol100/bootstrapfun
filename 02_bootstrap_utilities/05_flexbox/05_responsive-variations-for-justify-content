@@ -1,0 +1,29 @@
+Responsive variations for justify-content
+
+You can also use responsive variations with justify-content.
+
+.justify-content-start
+.justify-content-end
+.justify-content-center
+.justify-content-between
+.justify-content-around
+.justify-content-sm-start
+.justify-content-sm-end
+.justify-content-sm-center
+.justify-content-sm-between
+.justify-content-sm-around
+.justify-content-md-start
+.justify-content-md-end
+.justify-content-md-center
+.justify-content-md-between
+.justify-content-md-around
+.justify-content-lg-start
+.justify-content-lg-end
+.justify-content-lg-center
+.justify-content-lg-between
+.justify-content-lg-around
+.justify-content-xl-start
+.justify-content-xl-end
+.justify-content-xl-center
+.justify-content-xl-between
+.justify-content-xl-around

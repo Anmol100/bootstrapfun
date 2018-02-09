@@ -1,0 +1,38 @@
+Border Radius
+
+You can make the radius of the border in different shapes.
+Use the following classes to an element to easily round its corner.
+
+Syntax:
+
+To Round complete border:
+
+
+<img src="..." alt="..." class="rounded">
+
+To round top-border:
+
+<img src="..." alt="..." class="rounded-top">
+
+To round right-border:
+
+<img src="..." alt="..." class="rounded-right">
+
+To round bottom-border:
+
+<img src="..." alt="..." class="rounded-bottom">
+
+To round left-border:
+
+
+<img src="..." alt="..." class="rounded-left">
+
+To round in circle:
+
+
+<img src="..." alt="..." class="rounded-circle">
+
+No round:
+
+
+<img src="..." alt="..." class="rounded-0">

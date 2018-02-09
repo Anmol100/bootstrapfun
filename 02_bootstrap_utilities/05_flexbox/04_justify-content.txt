@@ -1,0 +1,11 @@
+Justify Content
+
+The justify-content utility is used to change the alignment of flex-items on the main axis.
+
+Example:
+
+<div class="d-flex justify-content-start">...</div>
+<div class="d-flex justify-content-end">...</div>
+<div class="d-flex justify-content-center">...</div>
+<div class="d-flex justify-content-between">...</div>
+<div class="d-flex justify-content-around">...</div>

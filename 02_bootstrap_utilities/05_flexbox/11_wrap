@@ -1,0 +1,29 @@
+Wrap
+
+It is used to change how flex items wrap in a flex container. You can choose the following:
+
+No wrapping: .flex-nowrap
+
+Wrapping: .flex-wrap
+
+Reverse wrapping: .flex-wrap-reverse
+
+Responsive variation for flex-wrap
+
+You can also use responsive variations for flex-wrap.
+
+.flex-nowrap
+.flex-wrap
+.flex-wrap-reverse
+.flex-sm-nowrap
+.flex-sm-wrap
+.flex-sm-wrap-reverse
+.flex-md-nowrap
+.flex-md-wrap
+.flex-md-wrap-reverse
+.flex-lg-nowrap
+.flex-lg-wrap
+.flex-lg-wrap-reverse
+.flex-xl-nowrap
+.flex-xl-wrap
+.flex-xl-wrap-reverse

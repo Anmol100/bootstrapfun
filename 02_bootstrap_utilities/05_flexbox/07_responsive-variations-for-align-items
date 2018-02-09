@@ -1,0 +1,29 @@
+Responsive variations for align-items
+
+You can also use responsive variations for align-items.
+
+.align-items-start
+.align-items-end
+.align-items-center
+.align-items-baseline
+.align-items-stretch
+.align-items-sm-start
+.align-items-sm-end
+.align-items-sm-center
+.align-items-sm-baseline
+.align-items-sm-stretch
+.align-items-md-start
+.align-items-md-end
+.align-items-md-center
+.align-items-md-baseline
+.align-items-md-stretch
+.align-items-lg-start
+.align-items-lg-end
+.align-items-lg-center
+.align-items-lg-baseline
+.align-items-lg-stretch
+.align-items-xl-start
+.align-items-xl-end
+.align-items-xl-center
+.align-items-xl-baseline
+.align-items-xl-stretch

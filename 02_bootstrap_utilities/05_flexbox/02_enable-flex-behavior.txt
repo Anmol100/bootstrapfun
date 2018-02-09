@@ -1,0 +1,28 @@
+Enable Flex Behavior
+
+The "display" utility is used to create a flexible container and transform direct children elements into flex items.
+
+You can modify flex container and items further with additional flex properties.
+
+Default flexbox container:
+
+<div class="d-flex p-2">I'm a flexbox container!</div>
+
+Inline Flexbox container:
+
+<div class="d-inline-flex p-2">I'm an inline flexbox container!</div>
+  
+Responsive flexbox container:
+
+Responsive variations also exist for .d-flex and .d-inline-flex.
+
+.d-flex
+.d-inline-flex
+.d-sm-flex
+.d-sm-inline-flex
+.d-md-flex
+.d-md-inline-flex
+.d-lg-flex
+.d-lg-inline-flex
+.d-xl-flex
+.d-xl-inline-flex
