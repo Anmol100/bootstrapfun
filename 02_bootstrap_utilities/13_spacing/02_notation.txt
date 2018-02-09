@@ -1,0 +1,63 @@
+Notation
+The spacing utilities that apply to all breakpoints, from xs to xl,
+don't have breakpoint abbreviation in them. It?s because those classes
+are applied from min-width: 0 and up, and are not bound by a media query.
+The remaining breakpoints, however, do include a breakpoint abbreviation.
+
+The classes are named using the format {property}{sides}-{size} for xs and
+{property}{sides}-{breakpoint}-{size} for sm, md, lg, and xl.
+
+Here, "property" is one of the following:
+
+m - It is used for classes that set margin
+p - It is used for classes that set padding
+
+
+"sides" is one of the following:
+
+t - It is used for classes that set margin-top or padding-top.
+b - It is used for classes that set margin-bottom or padding-bottom.
+l - It is used for classes that set margin-left or padding-left
+.
+r - It is used for classes that set margin-right or padding-right.
+x - It is used for classes that set both *-left and *-right.
+y - It is used for classes that set both *-top and *-bottom.
+blank - It is used for classes that set a margin or padding on all 4 sides of the element.
+
+
+"size" is one of the following:
+
+0 - It is used for classes that eliminate the margin or padding by setting it to 0
+
+1 - (By default) It is used for classes that set the margin or padding to $spacer-x * .25 or $spacer-y * .25
+
+2 - (by default) It is used for classes that set the margin or padding to $spacer-x * .5 or $spacer-y * .5
+
+3 - (by default) It is used for classes that set the margin or padding to $spacer-x or $spacer-y
+
+4 - (by default) It is used for classes that set the margin or padding to $spacer-x * 1.5 or $spacer-y * 1.5
+
+5 - (by default) It is used for classes that set the margin or padding to $spacer-x * 3 or $spacer-y * 3
+
+Note: You can add more sizes by adding entries to the $spacers Sass map variable.
+
+Example
+
+Let's take an example to see usage of these classes:
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.ml-1 {
+  margin-left: ($spacer-x * .25) !important;
+}
+
+.px-2 {
+  padding-left: ($spacer-x * .5) !important;
+  padding-right: ($spacer-x * .5) !important;
+}
+
+.p-3 {
+  padding: $spacer-y $spacer-x !important;
+}

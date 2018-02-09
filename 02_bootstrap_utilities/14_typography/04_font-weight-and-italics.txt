@@ -1,0 +1,35 @@
+Font weight and italics
+
+It is used to quickly change the weight (boldness) of text or italicize text.
+
+For bold text:
+
+Use "font-weight-bold" class to make the text weight bold.
+
+Syntax:
+
+<p class="font-weight-bold">Bold text.</p>
+
+Output:
+
+Bold text.
+
+For normal weight text:
+
+Use "font-weight-normal" class to make the text normal weight.
+
+Syntax:
+
+<p class="font-weight-normal">Normal weight text.</p>
+
+Output:
+
+Normal weight text.
+
+For Italic text:
+
+Use "font-italic" class to make the text italic.
+
+Syntax:
+      
+<p class="font-italic">Italic text.</p>

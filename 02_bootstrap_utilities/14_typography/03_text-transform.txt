@@ -1,0 +1,40 @@
+Text transform
+
+The text capitalization classes are used to transform text in components.
+
+For lowercase text:
+
+Use "text-lowercase" class to make the text appear in lowercase.
+
+Syntax:
+
+<p class="text-lowercase">Lowercased text.</p>
+
+Output:
+
+lowercased text.
+
+For uppercase text:
+
+Use "text-uppercase" class to make the text appear in uppercase.
+
+Syntax:
+
+<p class="text-uppercase">Uppercased text.</p>
+
+Output:
+
+UPPERCASED TEXT.
+
+For capitalized text:
+
+Use "text- capitalize" class to make the text's first letter appear in uppercase.
+
+Syntax:
+
+<p class="text-capitalize">CapiTaliZed text.</p>
+
+Output:
+
+
+CapiTaliZed Text.
